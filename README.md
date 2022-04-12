@@ -18,3 +18,4 @@ Download files by either using the GitHub CLI or by clicking on the file and cli
 3. Prepare download of remote content with `git fetch cav`
 4. Complete download using `git checkout cav/main -- <location>`
     * Location is the repository location for the code you want, using backslashes where spaces occur; for example, to download code for UoS G12 Zoom Rooms, `<location>` would be `./UoS\ G12\ Zoom Rooms`
+    * Location is case sensitive; you must match the name exactly.
